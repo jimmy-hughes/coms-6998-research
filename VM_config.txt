@@ -1,0 +1,7 @@
+Zone: us-east1-c
+Type: n1-standard-8 (8 vCPUs, 32 GB memory)
+OS: Ubuntu 18.04
+Boot disk and local disks: 200 GB (Type: Standard persistent disk)
+
+CPU Platform: Intel Haswell
+GPUs: 1 x NVIDIA Tesla K80
