@@ -19,9 +19,8 @@ def main(argv):
          dir = arg
 
    # create new tags folder
-   if os.path.isdir(dir + '/tags'):
-       os.rmdir(dir + '/tags')
-   os.mkdir(dir + '/tags')
+   if not os.path.isdir(dir + '/tags'):
+    os.mkdir(dir + '/tags')
 
    # gather file names
    queries = []
