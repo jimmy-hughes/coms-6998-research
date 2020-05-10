@@ -6,25 +6,25 @@
 		c) ./kaldi_prerequisites.sh
 
 3.	Run the following commands:
-		$ sudo apt-get install gcc-6 g++-6
-		$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 100
-		$ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 100
+		sudo apt-get install gcc-6 g++-6
+		sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 100
+		sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 100
 
 4.	Install Cuda:
-		$ wget https://developer.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.105_418.39_linux.run
-		$ chmod +x cuda_10.1.105_418.39_linux.run
-		$ sudo sh cuda_10.1.105_418.39_linux.run
+		wget https://developer.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.105_418.39_linux.run
+		chmod +x cuda_10.1.105_418.39_linux.run
+		sudo sh cuda_10.1.105_418.39_linux.run
 
 5.	Check installation using the following command:
-		$ nvidia-smi
+		nvidia-smi
 
 6.	check dependencies (install missing dependencies, if any):
-		$ cd kaldi-trunk/tools/
-		$ extras/check_dependencies.sh
+		cd kaldi-trunk/tools/
+		extras/check_dependencies.sh
 
 7.	Run following commands:
-		$ cd kaldi-trunk/tools/
-		$ make
-		$ cd ../src
-		$ ./configure 
-		$ make
+		cd kaldi-trunk/tools/
+		make
+		cd ../src
+		./configure 
+		make

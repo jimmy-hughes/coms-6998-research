@@ -8,10 +8,10 @@ May 8, 2020
 
 
 # Tools
-Kaldi and its dependencies (see config/)
+Details for tools used can be found in /config/ and /scripts/README.txt \
 
 # Directories
-scripts: contains all scripts\
+scripts: contains all scripts their details\
 data: contains preprocessed data\
 config: configuration instructions and details
 

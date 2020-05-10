@@ -4,4 +4,4 @@ OS: Ubuntu 18.04
 Boot disk and local disks: 200 GB (Type: Standard persistent disk)
 
 CPU Platform: Intel Haswell
-GPUs: 1 x NVIDIA Tesla K80
+GPUs: 1 x NVIDIA Tesla T4
