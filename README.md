@@ -1,4 +1,4 @@
-# COMS6998 Research Final
+## COMS6998 Research Final
 
 James Hughes\
 uni: jh3978\
