@@ -1,3 +1,3 @@
 # topic-scrape.py
 
-Dependencies:
+Dependencies: requests, beautifulsoup4, os

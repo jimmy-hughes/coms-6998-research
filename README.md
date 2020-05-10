@@ -8,7 +8,7 @@ May 8, 2020
 
 
 ## Tools
-Details for tools used can be found in /config/ and /scripts/README.txt \
+Details for tools used can be found in /config/ and /scripts/README.md
 
 ## Directories
 scripts: contains all scripts their details\

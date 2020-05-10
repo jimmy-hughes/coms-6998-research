@@ -15,6 +15,12 @@
 		chmod +x cuda_10.1.105_418.39_linux.run
 		sudo sh cuda_10.1.105_418.39_linux.run
 
+	Install most recent driver
+		sudo add-apt-repository ppa:graphics-drivers/ppa
+		sudo apt-get install dkms build-essential
+		sudo apt-get update
+		sudo apt-get install nvidia-driver-418
+
 5.	Check installation using the following command:
 		nvidia-smi
 
