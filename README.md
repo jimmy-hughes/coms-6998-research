@@ -3,7 +3,7 @@
 James Hughes\
 uni: jh3978\
 May 8, 2020\
-UTILIZING ACOUSTIC FEATURES FOR TOPIC RECOGNITION ON TED-LIUM CORPUS\
+UTILIZING ACOUSTIC FEATURES FOR TOPIC RECOGNITION ON TED-LIUM CORPUS
 
 ## Abstract
 Topic classification is frequently used as a text-mining tool for the discovery of hidden semantic structures in large collections of text, documents and recordings. Typically these models rely solely on information from the text but it is possible there is information hidden in the dynamics of the suprasegmental features. The purpose of this study will be to determine if any advantage can be leveraged from the acoustic information of the speech to develop a more accurate topic identification model.
